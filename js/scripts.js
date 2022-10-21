@@ -1,12 +1,13 @@
 window.addEventListener("load", function() {
+  console.log("load event")
   const survey = document.getElementById("survey");
-  survey.addEventListener("submit", results);
+  survey.addEventListener("submit", survey);
 });
 
 //------------------------------------------------------------------------------------------------------------------------
 function survey(event) {
   event.preventDefault();
-
+  console.log("survey function")
   // const option1 = document.querySelector("input#q5a").value;
   // const option2 = document.querySelector("input#q5").value;
   const selected = document.querySelector("input[name ='q5']:checked").value;
