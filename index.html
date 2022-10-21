@@ -7,13 +7,81 @@
 </head>
 <body>
   <h1>Language Selector</h1>
+  <h2>Complete the survey below to know which programing technology is best for you!</h2>
   <form id="survey">
-    <label for="q1a">
-      <input id="q1a" type="radio">
-      
+    <p>Question 1: What is this symbol called: &</p>
+    <label>
+      <input type="radio" name="q1" value="q1a">
+      Ampersand
     </label>
+    <label>
+      <input type="radio" name="q1" value="q1b">
+      And Symbol
+    </label>
+    <label>
+      <input type="radio" name="q1" value="q1c">
+      Squiggly and sign
+    </label><br><br>
+
+    <p>Question 2: How many feet do slugs have?</p>
+    <label>
+      <input type="radio" name="q2" value="q2a">
+      1
+    </label>
+    <label>
+      <input type="radio" name="q2" value="q2b">
+      10
+    </label>
+    <label>
+      <input type="radio" name="q2" value="q2c">
+      Slugs don't have feet...
+    </label><br><br>
+
+    <p>Question 3: How fast can Usain Bolt run?</p>
+    <label>
+      <input type="radio" name="q3" value="q3a">
+      23.35 MPH
+    </label>
+    <label>
+      <input type="radio" name="q3" value="q3b">
+      30.03 MPH
+    </label>
+    <label>
+      <input type="radio" name="q3" value="q3c">
+      26.2 MPH
+    </label><br><br>
+
+    <p>Question 4: Which animal is the most efficient hunter?</p>
+    <label>
+      <input type="radio" name="q4" value="q4a">
+      Dragonfly
+    </label>
+    <label>
+      <input type="radio" name="q4" value="q4b">
+      Cheetah
+    </label>
+    <label>
+      <input type="radio" name="q4" value="q4c">
+      Turtle
+    </label><br><br>
+
+    <p>Question 5: Do you want a challenging language?</p>
+    <label>
+      <input type="radio" name="q5" value="q5a">
+      Yes!
+    </label>
+    <label>
+      <input type="radio" name="q5" value="q5b">
+      I'm not sure
+    </label>
+    <label>
+      <input type="radio" name="q5" value="q5c">
+      No!
+    </label><br>
   </form>
-  <h2>Information:</h2>
-  <p id="info"></p>
+  <div class="hidden">
+    <h2>Results:</h2>
+    <p id="info"></p>
+  </div>
 </body>
 </html>
