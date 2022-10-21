@@ -19,6 +19,7 @@ function result(event) {
     + "building your knowlege from the ground up and give you a deeper "
     + "understanding of how and why things function as they do."
     document.getElementById("results").removeAttribute("class");
+    document.getElementById("results").setAttribute("class", "pformat");
   }
   else if (selected === "q5b") {
     document.getElementById("info").innerText = "Python\n\n"
@@ -28,6 +29,7 @@ function result(event) {
     + "to read and grasp. Furthermore, being general-purpose programming "
     + "language, Python is quite versatile for different sorts of projects."
     document.getElementById("results").removeAttribute("class");
+    document.getElementById("results").setAttribute("class", "pformat");
   }
   else if (selected === "q5c") {
     document.getElementById("info").innerText = "JavaScript\n\n"
@@ -36,6 +38,7 @@ function result(event) {
     + "easier to fing a job once you start building your "
     + "understanding and portfolio"
     document.getElementById("results").removeAttribute("class");
+    document.getElementById("results").setAttribute("class", "pformat");
   }
   //console.log(selected);
 }
